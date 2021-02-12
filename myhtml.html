@@ -1,0 +1,96 @@
+<html>
+    <head>
+    <title>MycaptainWebsite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap" rel="stylesheet">
+    <style>
+        
+        *{
+            box-sizing: border-box;
+        }
+        
+        body{
+            margin: 0px; 
+            background: linear-gradient(to bottom right, grey, black);
+        }
+        
+        .navbar {
+            position: sticky;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            overflow: hidden;
+            background-color: black;
+        }
+
+        [class*="item"] {
+            float: left;
+            font-family:  Lexend Giga; 
+        }
+
+        li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        [class*="item"] a:hover,active{
+            color: firebrick;
+        }
+        
+        #logo{
+            margin: 5px 0px 5px 5px;
+            font-size: 30px;
+            font-family: Lexend Giga;
+            display: inline;
+        }
+        
+        .searchbar1{
+            margin: 3px ;
+            float: right;
+            top: center;
+            width: 100px;
+            height: 31px;
+            text-align: center;
+            font-family: Lexend Giga;
+            background-color: firebrick;
+            color: white;
+        }
+                
+        .searchbar{
+            margin: 3px;
+            float: right;
+            width: 25%;
+            top: center;
+            height: 31px;
+            padding-left: 20px;
+            font-family: Lexend Giga;
+        }
+
+</style>
+</head>
+<body>
+    <div>
+        <p id="logo" style="color: white"><b>C<span style="color: black">T</span></b></p>
+        <input type="submit" class="searchbar1" value="Search" >
+        <input type="text" class="searchbar">
+    </div>
+    <div>
+        <ul class="navbar">
+            <li class="item1"><a href="#home">Home</a></li>
+            <li class="item2"><a href="#news">About Us</a></li>
+            <li class="item3"><a href="#contact">Contact Us</a></li>
+            <li class="item4"><a href="#more">More</a></li>
+            <li class="item5" style="float: right"><a href="#bars"><i class="fas fa-bars"></i></a></li>
+            <li class="item5" style="float: right"><a href="#cart"><i class="fas fa-shopping-cart" style="color: firebrick"></i>Cart</a></li>
+        </ul>
+    </div>
+    
+
+</body>
+</html>
