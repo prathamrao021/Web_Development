@@ -16,8 +16,11 @@
             background: linear-gradient(to bottom right, grey, black);
         }
         
-        .navbar {
+        #nav{
             position: sticky;
+        }
+        
+        .navbar {
             list-style-type: none;
             margin: 0;
             padding: 0;
@@ -35,7 +38,7 @@
             display: inline-block;
             color: white;
             text-align: center;
-            padding: 14px 16px;
+            padding: 14px 7px;
             text-decoration: none;
         }
 
@@ -61,6 +64,10 @@
             background-color: firebrick;
             color: white;
         }
+        
+        .searchbar1:hover{
+            text-shadow: -2px -2px 2px white;
+        }
                 
         .searchbar{
             margin: 3px;
@@ -71,6 +78,61 @@
             padding-left: 20px;
             font-family: Lexend Giga;
         }
+        
+        .searchbar:hover{
+            border: 2px solid black;
+        }
+        
+        .descrption
+        {
+            width: auto;
+            text-align: center;
+            margin: 5px 5px 5px;
+            height:150px;
+            background-color: black;
+            color: white;
+            float: left;
+        }
+        
+        .descrption1{
+            width: 20%;
+            text-align: center;
+            margin: 5px 5px 5px 0; 
+            padding: 10px;
+            background-color: black;
+            color: white;
+            float: left;
+            height: 150px;
+            overflow: hidden;
+        }
+        
+        .descrption2{
+            float: right;
+            padding: 25px;
+            height: 150px;
+            margin-top: 5px;
+            margin-right: 20px;
+            text-align: center;
+            color: white;
+            font-family: Lexend Giga;
+        }
+        
+/*
+       @media only screen and (max-width: 1340px){
+           .descrption{
+               height: auto;
+           }
+           .descrption1{
+               width: 100%;
+           }
+        }
+*/
+        
+        @media only screen and (max-width: 1153px){
+            .descrption2{
+                visibility: hidden;
+            }
+        }
 
 </style>
 </head>
@@ -78,19 +140,37 @@
     <div>
         <p id="logo" style="color: white"><b>C<span style="color: black">T</span></b></p>
         <input type="submit" class="searchbar1" value="Search" >
-        <input type="text" class="searchbar">
+        <input type="text" class="searchbar" placeholder="What's on your mind?">
     </div>
-    <div>
+    <div id="nav">
         <ul class="navbar">
             <li class="item1"><a href="#home">Home</a></li>
             <li class="item2"><a href="#news">About Us</a></li>
             <li class="item3"><a href="#contact">Contact Us</a></li>
             <li class="item4"><a href="#more">More</a></li>
             <li class="item5" style="float: right"><a href="#bars"><i class="fas fa-bars"></i></a></li>
-            <li class="item5" style="float: right"><a href="#cart"><i class="fas fa-shopping-cart" style="color: firebrick"></i>Cart</a></li>
+            <li class="item6" style="float: right"><a href="#cart"><i class="fas fa-shopping-cart" style="color: firebrick"></i>Cart</a></li>
         </ul>
     </div>
-    
+
+    <div>
+        <div class="descrption1">
+            Your package in our safe hands. Future Delivered on Time.<br><br>
+            <i class="fas fa-truck-loading" style="color: firebrick"></i>
+        </div>
+        
+            <img class="descrption" src="https://images.unsplash.com/photo-1579298245158-33e8f568f7d3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bmlrZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="height: 150px">
+        
+            <img class="descrption" src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8d2F0Y2hlc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="height:150px">
+        
+            <img class="descrption" src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8c3VuZ2xhc3Nlc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="height:150px">
+        
+            <img class="descrption" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTl8fG5pa2V8ZW58MHx8MHw%3D&auto=format&fit=crop&w=500&q=60" style="height:150px">
+        
+            
+            <div class="descrption2"><span style="font-size: 2vw">Best Prices</span><br><br> <span style="font-size: 1.5vw">on Cli'ck Through</span></div>
+    </div>
+
 
 </body>
 </html>
