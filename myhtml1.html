@@ -1,0 +1,200 @@
+<html>
+    <head>
+    <title>MycaptainWebsite1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap" rel="stylesheet">
+    <style>
+        
+        *{
+            box-sizing: border-box;
+        }
+        
+        body{
+            margin: 0px; 
+            background: linear-gradient(to bottom right, grey, black);
+            font-family: Lexend Giga;
+        }
+        
+        .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            overflow: hidden;
+            background-color: black;
+        }
+
+        [class*="item"] {
+            float: left;
+            font-family:  Lexend Giga; 
+        }
+
+        li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 7px;
+            text-decoration: none;
+        }
+
+        [class*="item"] a:hover,active{
+            color: firebrick;
+        }
+        
+        #logo{
+            margin: 5px 0px 5px 5px;
+            font-size: 30px;
+            font-family: Lexend Giga;
+            display: inline;
+        }
+        
+        .searchbar1{
+            margin: 3px ;
+            float: right;
+            top: center;
+            width: 100px;
+            height: 31px;
+            text-align: center;
+            font-family: Lexend Giga;
+            background-color: firebrick;
+            color: white;
+        }
+        
+        .searchbar1:hover{
+            text-shadow: -2px -2px 2px white;
+        }
+                
+        .searchbar{
+            margin: 3px;
+            float: right;
+            width: 25%;
+            top: center;
+            height: 31px;
+            padding-left: 20px;
+            font-family: Lexend Giga;
+        }
+        
+        .searchbar:hover{
+            border: 2px solid black;
+        }
+        
+        [class*="col-"] {
+            float: left;
+            padding: 10px;
+            height: auto;
+            background-color: black;
+            color: white;
+            margin-right: 12px;
+            margin-top: 5px;
+        }
+        
+        .desc1{
+            height: 150px;
+            overflow: hidden;
+        }
+        
+        .game:hover{
+            box-shadow: 3px 3px 2px grey;
+        }
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+        
+        @media only screen and (max-width: 1300px)
+        {
+            .desc1{
+                width: 100%;
+            }
+        }
+        
+        @media only screen and (max-width: 1300px)
+        {
+            .desc{
+                visibility: visible;
+            }
+        }
+        
+        @media only screen and (max-width: 764px)
+        {
+            .desc1{
+                width: 100%;
+            }
+        }
+        
+
+</style>
+</head>
+<body>
+    <div>
+        <p id="logo" style="color: white"><b>C<span style="color: black">T</span></b></p>
+        <input type="submit" class="searchbar1" value="Search" >
+        <input type="text" class="searchbar" placeholder="What's on your mind?">
+    </div>
+    <div id="nav">
+        <ul class="navbar">
+            <li class="item1"><a href="#home">Home</a></li>
+            <li class="item2"><a href="#news">About Us</a></li>
+            <li class="item3"><a href="#contact">Contact Us</a></li>
+            <li class="item4"><a href="#more">More</a></li>
+            <li class="item5" style="float: right"><a href="#bars"><i class="fas fa-bars"></i></a></li>
+            <li class="item6" style="float: right"><a href="#cart"><i class="fas fa-shopping-cart" style="color: firebrick"></i>Cart</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <div class="col-2 desc1" style="text-align: center; padding: 20px">
+            Your package in our safe hands. Future Delivered on Time.
+            <br><br>
+            <i class="fas fa-truck-loading" style="color: firebrick"></i>
+        </div>
+        
+        <div class="col- desc">
+            <img src="https://images.unsplash.com/photo-1509442233604-131901ff8d40?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8cHVtYSUyMHNob2VzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="height: 130px">
+        </div>
+        <div class="col- desc">
+            <img src="https://images.unsplash.com/photo-1584184804426-5e2aa23c2937?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTV8fHdhdGNoZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="height: 130px">
+        </div>
+        <div class="col- desc">
+            <img src="https://images.unsplash.com/photo-1580745223935-aefed3be334c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDN8fHN1bmdsYXNzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="height: 130px">
+        </div>
+        <div class="col- desc">
+            <img src="https://images.unsplash.com/photo-1611825727018-6936a473d3ad?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHBvcnRyYWl0fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="height: 130px">
+        </div>
+        <div class="col- desc" style="display: none">
+            <img src="https://images.unsplash.com/photo-1612902376658-d4d46558ee04?ixid=MXwxMjA3fDF8MHxzZWFyY2h8MXx8YWNjZXNzb3JpZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="height: 130px">
+        </div>
+        <div class="col- desc" style="display: none">
+            <img src="https://images.unsplash.com/photo-1546938576-04917ec516ee?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8YWNjZXNzb3JpZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="height: 130px">
+        </div>
+        <div class="col- desc" style="display: none">
+            <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Y29zbWV0aWNzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="height: 130px">
+        </div>
+        <div class="col- desc" style="display: none">
+            <img src="https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzZ8fHMyMCUyMHVsdHJhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="height: 130px">
+        </div>
+        </div>
+        <div class="col-6 desc1">
+            <p style="margin: 0px 0px 5px 0px">Game Zone</p>
+            <div>
+                <img class="game1" src="https://images.unsplash.com/photo-1577741314755-048d8525d31e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Z2FtZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="width: 150px; margin-left: 70px;">
+                <img class="game2" src="https://images.unsplash.com/photo-1562503007-73443f9dc9e2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8Z2FtZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="height: 101px; margin-left: 20px;">
+                <img class="game3" src="https://images.unsplash.com/photo-1531594896955-305cf81269f1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTV8fGdhbWVzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="width: 150px; margin-left: 20px;">
+                <div style="float: right">
+                    Win<br> Exciting<br> Prizes!
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>
